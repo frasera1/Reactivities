@@ -11,10 +11,11 @@ const App = () => {
   const [activities, setActivities] = useState<IActivity[]>([]);
   const [selectedActivity, setSelectedActivity] = useState<IActivity | null>(null);
 
-  const [editMode, setEditMode] = useState(false)
-  const [loading, setLoading] = useState(true)
+  const [editMode, setEditMode] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [target, setTarget] = useState('');
+  
 
   const handleSelectActivity = (id: string) => {
     setSelectedActivity(activities.filter(a => a.id === id)[0]);

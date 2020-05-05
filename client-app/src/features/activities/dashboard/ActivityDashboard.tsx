@@ -5,6 +5,7 @@ import ActivityList from "./ActivityList";
 import ActivityDetails from "../details/ActivityDetails";
 import ActivityForm from "../form/ActivityForm";
 
+
 interface IProps {
   activities: IActivity[];
   selectActivity: (id: string) => void;

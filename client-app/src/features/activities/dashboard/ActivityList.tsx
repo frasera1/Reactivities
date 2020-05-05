@@ -2,6 +2,7 @@ import React, { SyntheticEvent } from "react";
 import { Item, Button, Label, Segment } from "semantic-ui-react";
 import { IActivity } from "../../../app/models/activity";
 
+
 interface IProps {
   activities: IActivity[];
   selectActivity: (id: string) => void;

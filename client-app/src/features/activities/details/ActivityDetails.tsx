@@ -2,6 +2,7 @@ import React from "react";
 import { Card, Image, ButtonGroup, Button } from "semantic-ui-react";
 import { IActivity } from '../../../app/models/activity';
 
+
 interface IProps {
   activity: IActivity;
   setEditMode: (editMode: boolean) => void;
